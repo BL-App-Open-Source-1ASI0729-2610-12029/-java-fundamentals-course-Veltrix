@@ -24,3 +24,5 @@ programación orientada a objetos.
 - **Enlace**: [Ver la lección]()
 
 - **Conclusiones clave**:
+
+- **Práctica final — Aplica las buenas prácticas**:

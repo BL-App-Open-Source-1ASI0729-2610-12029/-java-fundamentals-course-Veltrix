@@ -51,6 +51,8 @@ programación orientada a objetos.
 * Los operadores (matemáticos y de comparación) son las herramientas esenciales que permiten a Java analizar e interpretar la información.
 * La estructura `if-else` funciona como una bifurcación lógica en el código: si la respuesta a una condición es verdadera se ejecuta una acción, y si es falsa, se ejecuta otra.
 * Dominar la toma de decisiones otorga la capacidad de pasar de secuencias de instrucciones planas a programas que realmente resuelven problemas reales (como evaluar si un alumno aprobó o desaprobó).
+**Practica :**[click para programar](https://www.jdoodle.com/ga/KmVrBVUhAiqEkuStAeMIQg%3D%3D)
+**Inicio inmediato!**
 
 ## Lección 4: Repeticiones y Métodos (9 minutos con 20 segundos)
 - **Descripción**: En esta lección se presentan dos herramientas fundamentales para desarrollar programas más eficientes y organizados en Java, los bucles y los métodos. A lo largo de la sesión, se explica cómo evitar la repetición innecesaria de código mediante el uso del bucle for, permitiendo ejecutar instrucciones múltiples veces de manera automática. Posteriormente se introduce el concepto de métodos, mostrando cómo agrupar instrucciones bajo un nombre para reutilizarlas cuando sea necesario.

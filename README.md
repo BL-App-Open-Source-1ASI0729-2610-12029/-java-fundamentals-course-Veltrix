@@ -31,7 +31,7 @@ programación orientada a objetos.
 
 ### Lección 3: Operadores y Decisiones (if–else) (10 minutos con 51 segundos)
 
-**Descripción:** En esta lección se presenta cómo dotar a un programa en Java de "inteligencia" para que pueda tomar decisiones por su cuenta. A lo largo de la sesión, se explica de manera sencilla cómo realizar operaciones matemáticas, comparar datos para obtener respuestas de verdadero o falso, y utilizar la estructura `if-else` para que el programa reaccione y tome distintos caminos según la información que reciba del usuario.
+**Descripción:** En esta lección se presenta cómo dotar a un programa en Java de "inteligencia" para que pueda tomar decisiones por su cuenta. A lo largo de la sesión, se explica de manera sencilla cómo realizar operaciones matemáticas, comparar datos para obtener respuestas de verdadero o falso, y utilizar la estructura `if-else` para que el programa reaccione y tome caminos diferentes según la información que reciba del usuario.
 
 **Enlace:** [Ver la lección](https://youtu.be/ejxs9y8wa2I)
 

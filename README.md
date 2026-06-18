@@ -67,7 +67,14 @@ programación orientada a objetos.
 ## **Lección 5:** Clases y Objetos en Java
 
 - **Descripción**: En esta lección aprenderás uno de los conceptos más importantes de la programación orientada a objetos: las clases y los objetos. Entenderás la diferencia entre el molde y el ejemplar, cómo definir atributos que guardan los datos de cada objeto, cómo usar un constructor para darle vida a tus objetos y cómo agregar métodos que definan sus acciones. Al finalizar, habrás creado tu propio programa con múltiples objetos funcionando juntos.
-- **Enlace**: https://youtu.be/9IGuCRdQZEo
+- **Enlace**: [Ver la lección](https://youtu.be/9IGuCRdQZEo)
+- **Conclusiones clave**: 
+* Una clase es el molde que define la estructura; un objeto es el ejemplar concreto creado a partir de ese molde, con sus propios datos.
+* Los atributos son las características que describen a cada objeto (nombre, edad, nota), y cada objeto guarda los suyos de forma independiente.
+* El constructor es el mecanismo que da vida a un objeto: se ejecuta automáticamente al usar new y asigna los datos iniciales.
+* Los métodos son las acciones que puede realizar un objeto; se invocan con el punto (ana.presentarse()), lo que hace que el código sea más organizado y reutilizable.
+* Dominar clases y objetos es el primer paso hacia la programación orientada a objetos: en lugar de escribir instrucciones sueltas, empiezas a modelar el mundo real dentro de tu programa (como representar estudiantes, mascotas o productos con sus propias características y comportamientos).
+- **Práctica**: [Clic para programar](https://www.jdoodle.com/ia/1UcD) **¡Inicio inmediato!**
 
 ## **Lección 6:** consejos y próximos pasos
 

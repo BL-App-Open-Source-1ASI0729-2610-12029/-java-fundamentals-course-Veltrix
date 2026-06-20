@@ -92,16 +92,3 @@ programación orientada a objetos.
 
 ## Recursos adicionales
 - **Código fuente completo**: [Repositorio de GitHub — class-materials](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/-java-fundamentals-course-Veltrix/tree/main/class-materials)
-- **Todas las actividades prácticas**:
-
-| Número de lección | Actividad | Empezar a programar |
-|----------|----------|-------------|
-| 1 | Introducción a la Programación y a Java | [JDoodle](https://www.jdoodle.com/ia/1Ubf) |
-| 2 | Variables, Tipos de Datos y Entrada por Consola | [JDoodle](https://www.jdoodle.com/ia/1Ubr) |
-| 3 | Operadores y Decisiones (if–else) | [JDoodle](https://www.jdoodle.com/ga/KmVrBVUhAiqEkuStAeMIQg%3D%3D) |
-| 4 | Repeticiones y Métodos | [JDoodle](https://www.jdoodle.com/ia/1UbB) |
-| 5 | Clases y Objetos en Java | [JDoodle](https://www.jdoodle.com/ia/1UcD) |
-
-- **Cuestionario**: [Prueba de conocimientos](https://bl-app-open-source-1asi0729-2610-12029.github.io/-java-fundamentals-course-Veltrix/class-materials/)
-
-**¡Gracias por completar el curso!**

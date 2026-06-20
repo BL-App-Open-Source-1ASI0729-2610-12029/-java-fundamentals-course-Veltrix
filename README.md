@@ -82,13 +82,17 @@ programación orientada a objetos.
 
 - **Descripción**: En esta lección final aplicaremos todo lo aprendido de las lecciones anteriores. Verás cuáles son los errores más comunes que cometen los principiantes en Java y cómo evitarlos desde el inicio. También aprenderás las mejores prácticas de escritura para un código limpio y recibirás una guía de recursos gratuitos para continuar aprendiendo por tu cuenta después de terminar este curso.
 
-- **Enlace**: [Ver la lección]()
+- **Enlace**: [Ver la lección](https://youtu.be/BegrQhOyipo)
 
 - **Conclusiones clave**:
+* Las estructuras condicionales permiten que el programa tome decisiones según determinadas condiciones.
+* Los métodos ayudan a dividir el programa en pequeñas tareas, facilitando la organización y el mantenimiento del código.
+* Las clases y los objetos permiten representar entidades del mundo real dentro de una aplicación.
+* Integrar todos estos conceptos en un proyecto práctico demuestra cómo se construyen aplicaciones funcionales en Java.
+* La práctica constante y el desarrollo de nuevos proyectos son esenciales para seguir fortaleciendo las habilidades de programación y avanzar hacia aplicaciones más complejas.
 
-- **Práctica final — Aplica las buenas prácticas**:
+- **Práctica**: [Clic para programar](https://www.jdoodle.com/ia/1Uf8) **¡Inicio inmediato!**
 
----
 
 ## Recursos adicionales
 - **Código fuente completo**: [Repositorio de GitHub — class-materials](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/-java-fundamentals-course-Veltrix/tree/main/class-materials)

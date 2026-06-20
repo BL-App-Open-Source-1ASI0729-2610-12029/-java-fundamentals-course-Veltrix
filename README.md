@@ -92,3 +92,4 @@ programación orientada a objetos.
 
 ## Recursos adicionales
 - **Código fuente completo**: [Repositorio de GitHub — class-materials](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/-java-fundamentals-course-Veltrix/tree/main/class-materials)
+- **Cuestionario**: [Prueba de conocimientos](https://bl-app-open-source-1asi0729-2610-12029.github.io/-java-fundamentals-course-Veltrix/class-materials/)

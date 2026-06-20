@@ -1,12 +1,385 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=class-materials/">
-  <title>Fundamentos de Java</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Java - Evaluación Final</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p><a href="class-materials/">Ir al curso</a></p>
+
+    <header>
+        <h1>Fundamentos de Java para Principiantes</h1>
+        <p>Evaluación final del curso</p>
+    </header>
+
+    <div class="nav-container">
+        <button id="nav-quiz" class="nav-btn btn-active" onclick="switchTab('quiz')">Prueba de conocimientos</button>
+        <button id="nav-share" class="nav-btn btn-inactive" onclick="switchTab('share')">Comparte tu proyecto</button>
+    </div>
+
+    <main class="main-container">
+        <section id="panel-quiz" class="section-panel active">
+            <form id="quiz-form" onsubmit="evaluateQuiz(event)">
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 1 · Lección 1</div>
+                    <div class="question-text">¿Qué consiste en programar según el curso?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="A" required>
+                                <span>Reparar componentes físicos de la computadora.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="B">
+                                <span>Dar instrucciones a una computadora para resolver problemas o realizar tareas.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="C">
+                                <span>Diseñar páginas web únicamente con CSS.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="D">
+                                <span>Instalar programas desde una tienda de aplicaciones.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 2 · Lección 1</div>
+                    <div class="question-text">¿Qué herramienta necesitas para programar en Java en este curso?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="A" required>
+                                <span>Solo tu navegador web.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="B">
+                                <span>Un servidor dedicado en la nube.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="C">
+                                <span>Instalar JDK y Eclipse obligatoriamente en tu PC.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="D">
+                                <span>Una tarjeta gráfica de última generación.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 3 · Lección 1</div>
+                    <div class="question-text">¿Qué característica tiene todo programa Java para poder ejecutarse?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="A" required>
+                                <span>Debe incluir una etiqueta HTML &lt;body&gt;.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="B">
+                                <span>Sigue una estructura básica definida (clase y método main).</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="C">
+                                <span>Requiere conexión a Internet permanente.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="D">
+                                <span>Solo funciona en sistemas Linux.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 4 · Lección 2</div>
+                    <div class="question-text">¿Para qué sirven las variables en un programa Java?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="A" required>
+                                <span>Cambiar el color de la consola.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="B">
+                                <span>Guardar información para utilizarla más adelante en el programa.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="C">
+                                <span>Eliminar errores de sintaxis automáticamente.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="D">
+                                <span>Conectar el programa a una base de datos.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 5 · Lección 2</div>
+                    <div class="question-text">¿Qué permite que un programa pase de ser estático a interactivo?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="A" required>
+                                <span>Usar solo operaciones matemáticas.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="B">
+                                <span>Permitir que el usuario ingrese información desde la consola.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="C">
+                                <span>Escribir el código sin punto y coma.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="D">
+                                <span>Crear múltiples clases vacías.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 6 · Lección 3</div>
+                    <div class="question-text">¿Para qué sirve la estructura if-else en Java?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="A" required>
+                                <span>Repetir instrucciones automáticamente.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="B">
+                                <span>Tomar decisiones y ejecutar caminos diferentes según una condición.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="C">
+                                <span>Definir el nombre de una clase.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="D">
+                                <span>Importar bibliotecas del sistema operativo.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 7 · Lección 3</div>
+                    <div class="question-text">¿Qué herramientas permiten a Java analizar información para tomar decisiones?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="A" required>
+                                <span>Operadores matemáticos y de comparación.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="B">
+                                <span>Etiquetas HTML y atributos CSS.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="C">
+                                <span>Archivos de imagen y enlaces web.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="D">
+                                <span>Variables booleanas sin realizar comparaciones.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 8 · Lección 4</div>
+                    <div class="question-text">¿Cuál es la función principal del bucle for?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="A" required>
+                                <span>Crear objetos a partir de una clase.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="B">
+                                <span>Repetir instrucciones múltiples veces de forma automática con un contador.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="C">
+                                <span>Leer datos del teclado solamente una vez.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="D">
+                                <span>Definir métodos privados en una clase.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 9 · Lección 4</div>
+                    <div class="question-text">¿Para qué sirven los métodos en Java?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="A" required>
+                                <span>Agrupar instrucciones bajo un nombre para reutilizarlas.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="B">
+                                <span>Almacenar únicamente números decimales.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="C">
+                                <span>Conectar Java con hojas de cálculo.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="D">
+                                <span>Reemplazar la necesidad de variables.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 10 · Lección 5</div>
+                    <div class="question-text">¿Cuál es la diferencia entre una clase y un objeto en Java?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="A" required>
+                                <span>Son exactamente lo mismo y se usan indistintamente.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="B">
+                                <span>La clase es el molde que define la estructura; el objeto es el ejemplar concreto creado con <code>new</code>.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="C">
+                                <span>El objeto es el molde y la clase es la instancia.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="D">
+                                <span>La clase solo existe en memoria RAM y el objeto en el disco.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="submit" class="submit-btn">Ver mis resultados</button>
+            </form>
+
+            <div id="quiz-result" class="result-card-container" style="display: none;">
+                <div class="circle-score">
+                    <span id="score-text">10/10</span>
+                </div>
+                <h3 id="score-title"></h3>
+                <p id="score-feedback"></p>
+                <button type="button" class="retry-btn" onclick="resetQuiz()">Intentar de nuevo</button>
+            </div>
+        </section>
+
+        <section id="panel-share" class="section-panel">
+            <h2>Comparte tu creación</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">¡Muéstranos lo que programaste! Completa los campos que quieras.</p>
+
+            <form id="share-form" onsubmit="submitProject(event)">
+                <div class="form-group">
+                    <label for="proj-name">Nombre <span>(opcional)</span></label>
+                    <input type="text" id="proj-name" class="form-control" placeholder="Tu nombre o apodo">
+                </div>
+
+                <div class="form-group">
+                    <label for="enlace">Enlace a tu proyecto en JDoodle</label>
+                    <input type="url" id="enlace" class="form-control" placeholder="https://www.jdoodle.com/..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="proj-like">¿Qué fue lo que más te gustó aprender?</label>
+                    <textarea id="proj-like" class="form-control" placeholder="Cuéntanos..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="proj-next">¿Qué te gustaría aprender después de Java?</label>
+                    <textarea id="proj-next" class="form-control" placeholder="Por ejemplo: aplicaciones móviles, desarrollo web, videojuegos, inteligencia artificial..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn btn-send">Enviar</button>
+            </form>
+
+            <div id="share-success" style="display: none; text-align: center; padding: 20px; animation: fadeIn 0.4s ease-out;">
+                <h3 style="color: #2e7d32; font-size: 1.5rem; margin-bottom: 8px;">¡Gracias por compartir!</h3>
+                <p style="color: var(--text-muted); font-size: 1.1rem;">Tu proyecto ha sido registrado. ¡Sigue programando!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

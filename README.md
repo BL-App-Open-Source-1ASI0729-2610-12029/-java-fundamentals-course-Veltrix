@@ -19,7 +19,7 @@ programación orientada a objetos.
 
 ## Lección 1: Introducción a la Programación y a Java (10 minutos con 40 segundos)
 - **Descripción**: En esta lección aprenderás qué es la programación y cómo las computadoras siguen instrucciones para realizar tareas. También conocerás Java, uno de los lenguajes de programación más utilizados en el mundo, y crearás tus primeros programas mostrando mensajes en pantalla y realizando operaciones sencillas.
-- **Enlace**: [Ver la lección](https://youtu.be/WNL-p4ycs1M?si=g_dewgIH5bJ2Q-ox)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=WNL-p4ycs1M)
 - **Conclusiones clave**: 
 
 * Programar consiste en darle instrucciones a una computadora para resolver problemas o realizar tareas.
@@ -40,13 +40,12 @@ programación orientada a objetos.
 
 - **Práctica**: [Clic para programar](https://www.jdoodle.com/ia/1Ubr) **¡Inicio inmediato!**
 
-### Lección 3: Operadores y Decisiones (if–else) (10 minutos con 51 segundos)
+## Lección 3: Operadores y Decisiones (if–else) (10 minutos con 52 egundos)
 
-**Descripción:** En esta lección se presenta cómo dotar a un programa en Java de "inteligencia" para que pueda tomar decisiones por su cuenta. A lo largo de la sesión, se explica de manera sencilla cómo realizar operaciones matemáticas, comparar datos para obtener respuestas de verdadero o falso, y utilizar la estructura `if-else` para que el programa reaccione y tome caminos diferentes según la información que reciba del usuario.
+- **Descripción:** En esta lección se presenta cómo dotar a un programa en Java de "inteligencia" para que pueda tomar decisiones por su cuenta. A lo largo de la sesión, se explica de manera sencilla cómo realizar operaciones matemáticas, comparar datos para obtener respuestas de verdadero o falso, y utilizar la estructura `if-else` para que el programa reaccione y tome caminos diferentes según la información que reciba del usuario.
 
-**Enlace:** [Ver la lección](https://youtu.be/ejxs9y8wa2I)
-
-**Conclusiones clave:**
+- **Enlace:** [Ver la lección](https://youtu.be/ejxs9y8wa2I)
+- **Conclusiones clave:**
 * Los programas pueden evaluar situaciones y tomar decisiones de forma automática basándose en condiciones específicas.
 * Los operadores (matemáticos y de comparación) son las herramientas esenciales que permiten a Java analizar e interpretar la información.
 * La estructura `if-else` funciona como una bifurcación lógica en el código: si la respuesta a una condición es verdadera se ejecuta una acción, y si es falsa, se ejecuta otra.
@@ -66,23 +65,23 @@ programación orientada a objetos.
 - **Práctica**: [Clic para programar](https://www.jdoodle.com/ia/1UbB) **¡Inicio inmediato!**
 
 
-## **Lección 5:** Clases y Objetos en Java
+## Lección 5: Clases y Objetos en Java (12 minutos con 39 segundos)
 
 - **Descripción**: En esta lección aprenderás uno de los conceptos más importantes de la programación orientada a objetos: las clases y los objetos. Entenderás la diferencia entre el molde y el ejemplar, cómo definir atributos que guardan los datos de cada objeto, cómo usar un constructor para darle vida a tus objetos y cómo agregar métodos que definan sus acciones. Al finalizar, habrás creado tu propio programa con múltiples objetos funcionando juntos.
-- **Enlace**: [Ver la lección](https://youtu.be/9IGuCRdQZEo)
+- **Enlace**: [Ver la lección](https://youtu.be/9IGuCRdQZEo?si=WKJEHEORtoK_IDX4)
 - **Conclusiones clave**: 
 * Una clase es el molde que define la estructura; un objeto es el ejemplar concreto creado a partir de ese molde, con sus propios datos.
 * Los atributos son las características que describen a cada objeto (nombre, edad, nota), y cada objeto guarda los suyos de forma independiente.
 * El constructor es el mecanismo que da vida a un objeto: se ejecuta automáticamente al usar new y asigna los datos iniciales.
 * Los métodos son las acciones que puede realizar un objeto; se invocan con el punto (ana.presentarse()), lo que hace que el código sea más organizado y reutilizable.
-* Dominar clases y objetos es el primer paso hacia la programación orientada a objetos: en lugar de escribir instrucciones sueltas, empiezas a modelar el mundo real dentro de tu programa (como representar estudiantes, mascotas o productos con sus propias características y comportamientos).
+* Dominar clases y objetos es el primer paso hacia la programación orientada a objetos: en lugar de escribir instrucciones sueltas, empiezas a modelar el mundo real dentro de tu programa.
 - **Práctica**: [Clic para programar](https://www.jdoodle.com/ia/1UcD) **¡Inicio inmediato!**
 
-## **Lección 6:** consejos y próximos pasos
+## Lección 6: Consejos y Próximos Pasos (11 minutos con 25 segundos)
 
 - **Descripción**: En esta lección final aplicaremos todo lo aprendido de las lecciones anteriores. Verás cuáles son los errores más comunes que cometen los principiantes en Java y cómo evitarlos desde el inicio. También aprenderás las mejores prácticas de escritura para un código limpio y recibirás una guía de recursos gratuitos para continuar aprendiendo por tu cuenta después de terminar este curso.
 
-- **Enlace**: [Ver la lección](https://youtu.be/BegrQhOyipo)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=BegrQhOyipo)
 
 - **Conclusiones clave**:
 * Las estructuras condicionales permiten que el programa tome decisiones según determinadas condiciones.
@@ -93,7 +92,44 @@ programación orientada a objetos.
 
 - **Práctica**: [Clic para programar](https://www.jdoodle.com/ia/1Uf8) **¡Inicio inmediato!**
 
+---
 
 ## Recursos adicionales
-- **Código fuente completo**: [Repositorio de GitHub — class-materials](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/-java-fundamentals-course-Veltrix/tree/main/class-materials)
+- **Código fuente completo**: [Repositorio de GitHub](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/-java-fundamentals-course-Veltrix/tree/main/class-materials)
+- **Web Desplegada**: [Medio Ambiente](https://gleeful-torrone-280372.netlify.app/)
+- **Todas las actividades prácticas**:
+  
+| Número de lección | Actividad | Empezar a programar |
+|----------|----------|-------------|
+| 1 | Introducción a la Programación y a Java | [Jdoodle](https://www.jdoodle.com/online-java-compiler)  |
+| 2 | Variables, Tipos de Datos y Entrada por Consola| [Jdoodle](https://www.jdoodle.com/online-java-compiler)  |
+| 3 | Operadores y Decisiones (if–else)| [Jdoodle](https://www.jdoodle.com/online-java-compiler) |
+| 4 | Repeticiones y Métodos| [Jdoodle](https://www.jdoodle.com/online-java-compiler) |
+| 5 | Clases y Objetos en Java | [Jdoodle](https://www.jdoodle.com/online-java-compiler)  |
+| 6 | Consejos y Próximos Pasos | [Jdoodle](https://www.jdoodle.com/online-java-compiler)  |
+
 - **Cuestionario**: [Prueba de conocimientos](https://bl-app-open-source-1asi0729-2610-12029.github.io/-java-fundamentals-course-Veltrix/)
+  
+**¡Gracias por completar el curso!**
+---
+
+## Elaboración
+**Universidad Peruana de Ciencias Aplicadas**  
+**Carrera:** Ingeniería de Software  
+**Curso:** 1ASI0729 Desarrollo de Aplicaciones Open Source
+**Período:** 202610  
+**NRC:** 12029
+
+**Nombre del equipo:** Veltrix
+
+**Líder del equipo:** Esquicha Alcántara, Diego Alonso
+
+**Integrantes:**  
+- Rocha Cotrina, Alvaro    
+- Esquicha Alcántara, Diego Alonso
+- Quispe Llacsahuanga, César Agusto  
+- Véliz Martínez, Diego Alonso
+- Checa Burga, Oscar Diego
+- Tello Palacios, Fabrizio Rafael  
+
+**Fecha de entrega:** 20/06/2025
